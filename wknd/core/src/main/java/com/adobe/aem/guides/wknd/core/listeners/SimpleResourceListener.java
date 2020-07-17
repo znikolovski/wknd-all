@@ -33,7 +33,6 @@ import org.slf4j.LoggerFactory;
  * the immediate flag should not be set on a service.
  */
 @Component(service = EventHandler.class,
-           immediate = true,
            property = {
                    EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/*"
            })
