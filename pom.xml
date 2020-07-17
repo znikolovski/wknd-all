@@ -5,7 +5,6 @@
 
     <modules>
       <module>wknd</module>
-      <module>dispatcher</module>
-      <module>event</module>
+      <module>events</module>
     </modules>
 </project>
