@@ -1,4 +1,4 @@
-# WKND Sites Projects
+# WKND Sites Project
 
 This is the code for the WKND Reference site: [https://www.wknd.site/](https://www.wknd.site/)
 
