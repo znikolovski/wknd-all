@@ -60,6 +60,7 @@ public class LoggingFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) {
+               // comment
     }
 
     @Override
