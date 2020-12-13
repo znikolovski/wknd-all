@@ -17,7 +17,7 @@
         <id>wknd-only</id>
         <activation>
             <property>
-                <name>PROFILE</name>
+                <name>env.PROFILE</name>
                 <value>wknd</value
             </property>
         </activation>
@@ -29,7 +29,7 @@
         <id>events-only</id>
         <activation>
             <property>
-                <name>PROFILE</name>
+                <name>env.PROFILE</name>
                 <value>events</value
             </property>
         </activation>
@@ -40,10 +40,7 @@
     <profile>
         <id>all</id>
         <activation>
-            <property>
-                <name>PROFILE</name>
-                <value>all</value
-            </property>
+            <activeByDefault>true</activeByDefault>
         </activation>
         <modules>
           <module>wknd</module>
