@@ -10,8 +10,44 @@
     <packaging>pom</packaging>
     <modules>
       <module>wknd</module>
-<!--
       <module>events</module>
--->
     </modules>
+    
+    <profile>
+        <id>wknd-only</id>
+        <activation>
+            <property>
+                <name>PROFILE</name>
+                <value>wknd</value
+            </property>
+        </activation>
+        <modules>
+          <module>wknd</module>
+        </modules>
+    </profile>
+    <profile>
+        <id>events-only</id>
+        <activation>
+            <property>
+                <name>PROFILE</name>
+                <value>events</value
+            </property>
+        </activation>
+        <modules>
+          <module>events</module>
+        </modules>
+    </profile>
+    <profile>
+        <id>all</id>
+        <activation>
+            <property>
+                <name>PROFILE</name>
+                <value>all</value
+            </property>
+        </activation>
+        <modules>
+          <module>wknd</module>
+          <module>events</module>
+        </modules>
+    </profile>
 </project>
