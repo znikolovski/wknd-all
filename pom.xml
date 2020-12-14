@@ -40,7 +40,10 @@
     <profile>
         <id>all</id>
         <activation>
-            <activeByDefault>true</activeByDefault>
+            <property>
+                <name>env.PROFILE</name>
+                <value>all</value
+            </property>
         </activation>
         <modules>
           <module>wknd</module>
